@@ -24,6 +24,7 @@ Double-click any image on any webpage → clean dark overlay. Scroll to zoom, dr
 ## Shortcuts
 
 | Action | Effect |
+|---|---|
 | Double-click image | Open overlay |
 | Alt+Click image | Open overlay (linked/nested images) |
 | Scroll | Zoom in/out |
@@ -92,6 +93,7 @@ Doppelklick auf ein beliebiges Bild → sauberes dunkles Overlay. Scrollen zum Z
 ## Tastenkürzel
 
 | Aktion | Effekt |
+|---|---|
 | Doppelklick auf Bild | Overlay öffnen |
 | Alt+Klick auf Bild | Overlay öffnen (verlinkte/verschachtelte Bilder) |
 | Mausrad | Zoomen |
