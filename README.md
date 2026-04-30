@@ -29,6 +29,7 @@ Double-click any image on any webpage → clean dark overlay. Scroll to zoom, dr
 | Double-click image | Open overlay |
 | Alt+Click image | Open overlay (linked/nested images) |
 | Scroll | Zoom in/out |
+| F | Toggle fullscreen |
 | Click + drag | Pan |
 | ESC or double-click | Close |
 
