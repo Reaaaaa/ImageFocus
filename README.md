@@ -2,7 +2,7 @@
 
 [![Mozilla Add-ons](https://img.shields.io/badge/Firefox-Add--on-FF7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/de/firefox/addon/imagefocus/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.5-brightgreen)](https://github.com/rezzi/imagefocus/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.6-brightgreen)](https://github.com/rezzi/imagefocus/releases)
 
 I was tired of having to right-click on an image and select “Open image in new tab” every time I wanted to take a closer look at it. So I sat down and developed this little extension.
 
