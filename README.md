@@ -16,6 +16,7 @@ Double-click any image on any webpage → clean dark overlay. Scroll to zoom, dr
 - Alt+Click works on linked or nested images (where double-click can't reach)
 - Zoom anchors to your cursor position, up to 10×
 - Click and drag to pan when zoomed in
+- Scale the isolated image to full window size or enter the native browser fullscreen (or both!) via two buttons
 - Tooltip language follows your browser — German or English, everything else defaults to English
 - No permissions for browsing data, no network requests, no tracking
 
