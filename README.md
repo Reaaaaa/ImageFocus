@@ -1,8 +1,14 @@
-# ImageFocus 🔍
+<div align="center">
+
+<img src="icons/icon96.png" alt="ImageFocus Logo" width="96">
+
+# ImageFocus
 
 [![Mozilla Add-ons](https://img.shields.io/badge/Firefox-Add--on-FF7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/de/firefox/addon/imagefocus/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.7-brightgreen)](https://github.com/rezzi/imagefocus/releases)
+
+</div>
 
 I got tired of right-clicking → "open image in new tab" every time I wanted to get a closer look at something. So I built this.
 
@@ -90,7 +96,11 @@ MIT © [Rezzi](https://github.com/rezzi)
 
 ---
 
-# ImageFocus 🔍
+<div align="center">
+
+# ImageFocus
+
+</div>
 
 Ich war es leid, jedes Mal Rechtsklick → „Bild in neuem Tab öffnen" zu machen wenn ich ein Bild genauer anschauen wollte. Also hab ich das hier gebaut.
 
