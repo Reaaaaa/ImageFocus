@@ -1,0 +1,114 @@
+/* ImageFocus Overlay */
+
+#imagefocus-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  animation: imagefocus-fadein 0.18s ease;
+}
+
+#imagefocus-overlay.grabbing {
+  cursor: grabbing;
+}
+
+#imagefocus-overlay img {
+  position: absolute;
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.8);
+  transform-origin: center center;
+  user-select: none;
+  pointer-events: none;
+  will-change: transform;
+  transition: box-shadow 0.15s ease;
+  image-rendering: auto;
+}
+
+#imagefocus-overlay.fullscreen img {
+  max-width: 100vw;
+  max-height: 100vh;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#imagefocus-hint {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.75);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  animation: imagefocus-fadein 0.4s ease 0.5s both;
+}
+
+#imagefocus-controls {
+  position: fixed;
+  bottom: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  animation: imagefocus-fadein 0.4s ease 0.5s both;
+}
+
+#imagefocus-fill-btn,
+#imagefocus-download-btn,
+#imagefocus-fullscreen-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+#imagefocus-fill-btn:hover,
+#imagefocus-download-btn:hover,
+#imagefocus-fullscreen-btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+#imagefocus-fill-btn svg,
+#imagefocus-download-btn svg,
+#imagefocus-fullscreen-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.7);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#imagefocus-fill-btn:hover svg,
+#imagefocus-download-btn:hover svg,
+#imagefocus-fullscreen-btn:hover svg {
+  stroke: rgba(255, 255, 255, 0.95);
+}
+
+@keyframes imagefocus-fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
